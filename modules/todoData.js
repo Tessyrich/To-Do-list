@@ -1,18 +1,18 @@
 const todos = [
   {
-    id: 1,
-    text: 'Take out the trash',
-    isCompleted: true,
+    index: 1,
+    description: 'Take out the trash',
+    Completed: true,
   },
   {
-    id: 2,
-    text: 'Fix my old car',
-    isCompleted: false,
+    index: 2,
+    description: 'Fix my old car',
+    Completed: false,
   },
   {
-    id: 3,
-    text: 'Visit my friend',
-    isCompleted: true,
+    index: 3,
+    description: 'Visit my friend',
+    Completed: true,
   },
 ];
 
