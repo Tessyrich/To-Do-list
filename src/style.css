@@ -54,21 +54,20 @@ i {
   color: rgb(25, 12, 73);
 }
 
-.insert-text  {
+.insert-text {
   width: 100%;
   padding: 0.4rem;
   border: none;
   font-style: italic;
 }
 
-.insert-text:focus-visible{
+.insert-text:focus-visible {
   outline: none;
 }
 
 .list-container {
   list-style: none;
 }
-
 
 .display-none {
   display: none;
