@@ -1,5 +1,5 @@
-// let todos = [
+const data = {
+  todos: [],
+};
 
-// ];
-
-// export default todos;
+export default data;
