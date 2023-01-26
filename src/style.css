@@ -5,91 +5,99 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  background-color: rgba(247, 234, 234, 0.381);
+  background: #eee;
 }
 
-.container {
-  margin: 8rem auto;
-  max-width: 600px;
-  grid-auto-rows: auto;
-  cursor: pointer;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-#title {
-  font-size: 1.25rem;
+main {
   display: flex;
-  justify-content: space-between;
-  padding: 1.25rem;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.164);
-}
-
-.input-container {
-  display: flex;
-  position: relative;
-}
-
-#icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  bottom: 50%;
-  cursor: pointer;
+  height: 100vh;
 }
 
 i {
-  opacity: 50%;
+  color: rgb(149, 139, 139);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.list-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 50px 0 rgba(0, 0, 0, 0.02);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: fantasy;
+  padding: 0.5rem;
+  border-bottom: solid 1px #c0c0c0;
+}
+
+#form {
+  display: flex;
+}
+
+.input-text {
+  padding: 0.4rem;
+  border-bottom: solid 1px #c0c0c0;
+}
+
+.title h1 {
+  font-weight: 200;
 }
 
 .hello {
   color: rgb(25, 12, 73);
 }
 
-#input-item {
+.insert-text {
   width: 100%;
-  padding: 1.375rem;
+  padding: 0.4rem;
   border: none;
-  outline: none;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.164);
-  color: gray;
+  font-style: italic;
 }
 
-::placeholder {
-  font-size: 1rem;
-  border: none;
-  font-style: oblique;
-  opacity: 50%;
+.insert-text:focus-visible {
   outline: none;
 }
 
-.todo-list {
+.list-container {
   list-style: none;
 }
 
-.todo-list li {
-  list-style: none;
-  color: black;
-  font-size: 1.125rem;
+.display-none {
+  display: none;
+}
+
+.li-wrapper {
   display: flex;
-  gap: 1.25rem;
-  padding: 1.25rem;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px;
+  border-bottom: solid 1px #c0c0c0;
 }
 
-.todo-list li i {
-  margin-left: auto;
+.li-wrapper input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
 }
 
-#btn-clear {
+.li-wrapper input[type="text"] {
   border: none;
+  outline: none;
+  font-family: fantasy;
   width: 100%;
-  padding: 1.25rem;
-  color: rgba(128, 128, 128, 0.622);
-  cursor: pointer;
-  font-size: 1rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.clear-elements {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #dedede;
+  color: #757575;
 }
