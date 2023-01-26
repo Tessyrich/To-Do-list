@@ -11,15 +11,30 @@
     <title>TODO LIST</title>
   </head>
   <body>
-    <div class="container">
-      <h1 id="title"><span>Today's To Do</span><i class="fas fa-sync"></i></h1>
-      <div class="input-container">
-        <input type="text" placeholder="Add to your list...." id="input-item" />
-        <i id="icon" class="fas fa-hand-point-left"></i>
-      </div>
-      <ul class="todo-list"></ul>
-      <button type="submit" id="btn-clear">Clear All Completed</button>
-    </div>
+    <main>
+      <section class="list-div">
+        <div class="title">
+          <h1>Today's To Do</h1>
+          <span><i class="fas fa-sync"></i></span>
+        </div>
+        <div class="input-text">
+          <form id="form">
+            <input
+              type="text"
+              name="tasks"
+              placeholder="Add to your list"
+              class="insert-text"
+            />
+          </form>
+        </div>
+        <ul class="list-container">
+
+        </ul>
+        <div class="clear-elements">
+          <button class="clear-btn" type="submit">Clear all completed</button>
+        </div>
+      </section>
+    </main>
     <script type="module" src="./index.js"></script>
   </body>
 </html>
