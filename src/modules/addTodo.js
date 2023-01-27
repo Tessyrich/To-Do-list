@@ -1,6 +1,6 @@
-import data from './todoData.js';
-import display from './Display.js';
-import { form } from './Elements.js';
+import data from '../modules/todoData.js';
+import display from '../modules/Display.js';
+import { form } from '../modules/Elements.js';
 
 const addTodo = (e) => {
   e.preventDefault();

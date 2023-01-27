@@ -1,5 +1,5 @@
-import data from './todoData.js';
-import display from './Display.js';
+import data from '../modules/todoData.js';
+import display from '../modules/Display.js';
 
 const getTodos = () => {
   document.addEventListener('DOMContentLoaded', () => {
