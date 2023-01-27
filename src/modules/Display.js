@@ -1,5 +1,5 @@
-import data from '../modules/todoData.js';
-import { list } from '../modules/Elements.js';
+import data from './todoData.js';
+import { list } from './Elements.js';
 
 const display = () => {
   list.innerHTML = '';
