@@ -4,7 +4,6 @@
   "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "server": "node server.js",
     "build": "webpack",
@@ -21,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Tessyrich/To-Do-list/issues"
   },
-  "homepage": "https://github.com/Tessyrich/To-Do-list#readme",
+  "homepage": "https://Tessyrich.github.io/To-Do-list",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
